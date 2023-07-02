@@ -1,3 +1,4 @@
-sample_math = 2 **  3
+def main_program():
+    print("Hello world!")
 
-print(sample_math)
+main_program()
