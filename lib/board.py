@@ -28,5 +28,11 @@ class Board:
         print(result_string)
 
     
-board_instance = Board("John", "Mary")
-board_instance.draw_board()
+    def position_is_taken(self, position, symbol):
+        return True if position == symbol else  False
+
+
+# board_instance = Board("John", "Mary")
+# board_instance.draw_board()
+# print(board_instance.position_is_taken("X", "X"))
+# print(board_instance.position_is_taken("1", "O"))
