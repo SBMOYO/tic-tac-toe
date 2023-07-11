@@ -14,4 +14,3 @@
 - Board . . . (display)
 - First player please enter any number between 1 and 9 . . . (prompt)
 - Second player please enter any number between 1 and 9 . . (prompt)
-
